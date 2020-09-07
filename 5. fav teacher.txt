@@ -1,0 +1,2 @@
+5. Find the favourite teacher of student ‘Ashwini’ 
+db.students.find({"favourite teacher":"Ashwini"}).pretty()

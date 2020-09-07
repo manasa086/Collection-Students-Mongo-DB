@@ -1,0 +1,2 @@
+7.Count the students who live in Chennai 
+db.students.find( { "primary address": { $regex: /Chennai/i} }).count()

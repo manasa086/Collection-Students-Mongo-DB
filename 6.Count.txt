@@ -1,0 +1,2 @@
+6.Count the number of student present in student collection.
+db.students.count()

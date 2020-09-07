@@ -1,0 +1,3 @@
+2. Check weather a student name ‘Arun’ is present in the collection. 
+ db.students.find({"name":"Arun"})
+{ "_id" : ObjectId("5f563b5030f55b1499ff57ff"), "name" : "Arun", "primary address" : "no.7890 Electronic City Banglore", "favourite teacher" : "xbjkjf", "age" : 21 }

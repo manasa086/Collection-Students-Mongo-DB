@@ -1,0 +1,2 @@
+3.Change the primary address of the student ‘Vijay’ as no ‘123 abc nagar Chennai.’
+db.students.updateOne({"name":"Vijay"},{ $set:{"primary address":"no.123 adc nagar chennai"}});

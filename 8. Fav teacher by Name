@@ -1,0 +1,2 @@
+8. Count the student whose favourite teacher is ‘Anitha’.
+db.students.find({"favourite teacher": "Anitha"}).count()
